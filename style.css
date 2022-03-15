@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  height: 8rem;
+  line-height: 8rem;
+}
+
+header nav {
+  background-color: #121212;
+}
+
+header nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul li {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: black;
+  color: aliceblue;
+}
+
+header nav ul li:hover {
+  opacity: 0.7;
+}
+
+header nav ul li:hover ul {
+  display: block;
+}
+
+header nav ul li:hover .menu-wide {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li:hover .menu-wide li {
+  width: 25%;
+}
+
+header nav ul li ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: none;
+}
+
+header nav ul li ul li {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
